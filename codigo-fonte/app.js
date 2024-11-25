@@ -9,10 +9,16 @@ document.addEventListener('DOMContentLoaded', () => {
         if (cpf.length !== 11 || /^(\d)\1{10}$/.test(cpf)) {
             alert('CPF inválido.');
             return;
-        } 
+        }
+        if(localStorage.getItem("user")){
+            window.location.href = 'src/pages/home/home.html';
+
+        } else {
+            window.location.href = 'src/pages/cadastro/cadastro.html';
+
+        }
         
         
-        window.location.href = 'src/pages/home/home.html';
         
     });
 });

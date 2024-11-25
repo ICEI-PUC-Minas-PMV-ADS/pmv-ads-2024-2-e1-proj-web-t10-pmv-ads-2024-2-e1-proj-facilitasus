@@ -25,10 +25,17 @@
             </div>
             <div class="actions">
                 <button id="cancelBtn">Voltar</button>
-                <button id="acceptBtn">Confirmar</button>
+                <button id="acceptBtn" onclick="agendaExame()">Confirmar</button>
             </div>
         </div>
     </div>
     <script src="agendar-exame.js"></script>
+    <script>
+        function agendaExame(){
+            alert("agendado");
+            var exames = parseInt(localStorage.getItem("num_exames"));
+            localStorage.setItem("num_exames", exames+1);
+        }
+    </script>
 </body>
 </html>

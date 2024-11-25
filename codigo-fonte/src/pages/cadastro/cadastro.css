@@ -1,0 +1,63 @@
+.content {
+  height: 100%;
+  background-color: #efefef;
+  margin: 30px;
+
+  border-radius: 10px;
+  background-color: #efefef;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  font-family: Inter;
+
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  max-height: 800px;
+  text-align: center;
+}
+
+.text-agendamento {
+  padding: 30px;
+}
+
+form {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

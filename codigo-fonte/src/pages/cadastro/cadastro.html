@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css" />
+    <link rel="stylesheet" href="../../header/header.css" />
+    <script src="../../header/header.js"></script>
+    <script src="./cadastro.js"></script>
+  </head>
+  <body>
+    <header-comp></header-comp>
+    <div class="content" style="display: flex">
+      <div class="text-agendamento">
+        <h1>Seja bem vindo!</h1>
+        <h2>Realize seu cadastro preenchendo os campos abaixo</h2>
+
+        <form id="formulario-cadastro">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+        
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+        
+            <label for="unidade">Unidade de Saúde</label>
+            <input type="text" id="unidade" name="unidade" placeholder="Digite sua unidade de saúde" required>
+        
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" name="idade" placeholder="Digite sua idade" min="0" max="120" required>
+        
+            <label for="endereco">Endereço</label>
+            <textarea id="endereco" name="endereco" rows="3" placeholder="Digite seu endereço completo" ></textarea>
+        
+            <button type="submit">Enviar</button>
+          </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -40,11 +40,19 @@
             </div>
             <div class="actions">
                 <button id="cancelBtn">Voltar</button>
-                <button id="acceptBtn">Confirmar</button>
+                <button id="acceptBtn" onclick=agendaExame()>Confirmar</button>
             </div>
         </div>
     </div>
     <script src="../agendar-exame/agendar-exame.js"></script>
     <link rel="stylesheet" href="../agendar-exame/agendar-exame.css">
+    <script>
+        function agendaExame(){
+            var exames = parseInt(localStorage.getItem("num_exames") || 0);
+            localStorage.setItem("num_exames", exames+1);
+            modal.style.display = "none";
+            window.location.href = "../meus-exames/meus-exames.html";
+        }
+    </script>
     
 </html>
