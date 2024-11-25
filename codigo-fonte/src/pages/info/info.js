@@ -1,5 +1,5 @@
 let currentStep = 1;
-const totalSteps = 5;
+const totalSteps = 4;
 
 // Exibe o passo atual e oculta os outros
 function showStep(step) {
