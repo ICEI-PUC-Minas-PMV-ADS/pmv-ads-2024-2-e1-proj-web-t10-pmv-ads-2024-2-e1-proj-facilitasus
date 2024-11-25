@@ -32,9 +32,9 @@ cancelBtn.onclick = function() {
 }
 
 // Quando o usuário clicar no botão "Aceitar", fechar a modal
-acceptBtn.onclick = function() {
-    modal.style.display = "none";
-}
+// acceptBtn.onclick = function() {
+//     modal.style.display = "none";
+// }
 
 // Quando o usuário clicar fora da modal, fechar a modal
 window.onclick = function(event) {

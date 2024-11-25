@@ -5,7 +5,7 @@ class Header extends HTMLElement {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
         />
-        <link rel="stylesheet" href="./header.css" />
+        
         <div class="header">
             <img src="/codigo-fonte/img/govbr.png" alt="Ilustração de usuário">
             <nav>

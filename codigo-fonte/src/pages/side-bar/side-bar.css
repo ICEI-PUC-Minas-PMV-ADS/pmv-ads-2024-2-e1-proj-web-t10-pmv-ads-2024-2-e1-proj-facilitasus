@@ -22,6 +22,8 @@
 }
 .redirect {
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .base {
@@ -79,4 +81,19 @@
     .container {
         margin: 0px; 
     }
+}
+
+.indicador {
+    height: 100%; 
+    background-color: #d9d9d9; 
+    border: 1px solid black; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-weight: bold; 
+    color: white; 
+    aspect-ratio: 1 /1;
+    padding: 5%;
+    margin-left: 10px;
 }
