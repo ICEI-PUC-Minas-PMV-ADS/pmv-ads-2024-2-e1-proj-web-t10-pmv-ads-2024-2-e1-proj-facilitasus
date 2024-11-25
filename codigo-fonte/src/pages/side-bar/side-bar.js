@@ -39,7 +39,7 @@ class SideBar extends HTMLElement {
             </div>
                 <div class="base redirect" onclick=Redirect() data-link="/codigo-fonte/index.html">Minhas mensagens</div>
                 <div id="exames" class="base redirect" onclick=Redirect("../meus-exames/meus-exames.html") data-link="/codigo-fonte/index.html">Meus exames</div>
-                <div id="consultas" class="base redirect" onclick=Redirect("../meus-exames/meus-exames.html") data-link="/codigo-fonte/index.html">Minhas consultas</div>
+                <div id="consultas" class="base redirect" onclick=Redirect("../minhas-consultas/minhas-consultas.html") data-link="/codigo-fonte/index.html">Minhas consultas</div>
                 <div class="base redirect" onclick=Redirect()  data-link="../index.html"><span>Inicio</span></div>
                 <div class="base redirect" onclick=Redirect() data-link="../index.html">Meu perfil</div>
                 <div class="base redirect" onclick=Redirect("../info/info.html") data-link="/codigo-fonte/index.html">Informações</div>

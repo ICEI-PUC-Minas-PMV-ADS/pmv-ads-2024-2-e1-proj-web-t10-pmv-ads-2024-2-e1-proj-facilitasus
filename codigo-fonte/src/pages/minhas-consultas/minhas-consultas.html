@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Meus Exames</title>
+    <link rel="stylesheet" href="../meus-exames/meus-exames.css" />
+    <link rel="stylesheet" href="../side-bar/side-bar.css" />
+    <link rel="stylesheet" href="../../header/header.css" />
+
+    <script src="../side-bar/side-bar.js"></script>
+    <script src="../meus-exames/meus-exames.js"></script>
+    <script src="../../header/header.js"></script>
+  </head>
+
+<body>
+    <header-comp></header-comp>
+    <main class="main">
+        <side-bar></side-bar>
+        <div class="content">
+            <div class="meus-exames">
+                <h1>Minhas consultas</h1>
+                <div class="menu-exames">
+                    <button id="active">Agendadas</button>
+                    <button onclick="Resultados()">Avalie seu atendimento</button>
+                    <button onclick="Resultados()">Fila de espera</button>
+                    <button onclick="Resultados()">Retorno</button>
+                </div>
+                <br>
+                <br>
+                <h3>Histório de agendamento:</h3>
+                <p>UMS Bairro correspondente - Consulta cardiológica<br> 25/09/2024 &emsp;17:20</p>
+                <p class="msg-atencion">Obrigatório o comparecimento com 30 minutos de<br> antecedência do horário
+                    marcado</p>
+                <hr>
+                <p>UMS Bairro correspondente - Consulta obstétrica<br> 28/09/2024 &emsp;14:45</p>
+                <p class="msg-atencion">Obrigatório o comparecimento com 30 minutos de<br> antecedência do horário
+                    marcado</p>
+                <hr>
+                <p>UMS Bairro correspondente - Consulta oncológica<br> 28/09/2024 &emsp;17:20</p>
+                <p class="msg-atencion">Obrigatório o comparecimento com 30 minutos de<br> antecedência do horário
+                    marcado</p>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+<script> 
+    function Resultados(){
+        window.window.location.href = '../meus-exames-resultados/meus-exames.html';
+    }
+</script>
+
+</html>
