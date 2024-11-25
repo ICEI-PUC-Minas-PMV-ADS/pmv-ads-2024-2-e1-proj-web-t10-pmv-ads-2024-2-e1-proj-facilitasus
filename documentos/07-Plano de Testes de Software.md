@@ -34,7 +34,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Clicar em “Continuar”.</li>
    </ol>
    </td>
-  <td>Após o login, o usuário deverá ser redirecionado para a sua página de perfil.</td>
+  <td>Após o login, o usuário deverá ser redirecionado para a sua página de cadastro.</td>
   <td>Mateus</td>
  </tr>
 </table>
@@ -70,7 +70,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Clicar em “Confirmar”.</li>
    </ol>
    </td>
-  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em “Confirmar”, deve aparecer o popup de confirmação de agendamento.</td>
+  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em “Confirmar”, deve ser redirecionado para a pagina de "meus exames" e um indicador de exames deve aparecer ao lado do item "meus exames" na barra lateral.</td>
   <td>Mateus</td>
  </tr>
 </table>
