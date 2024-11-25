@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <title>Fluxo de atendimento</title>
+        <link rel="stylesheet" href="../info/info.css" />
+        <link rel="stylesheet" href="../side-bar/side-bar.css" />
+        <link rel="stylesheet" href="../../header/header.css" />
+
+        <script src="../info/info.js"></script>
+        <script src="../side-bar/side-bar.js"></script>
+        <script src="../../header/header.js"></script>
+        
+    </head>
+    <body>
+        <header-comp></header-comp>
+        <main class="main">
+            <side-bar></side-bar>
+            <div class="content">
+                    <div id="step1" class="step active">
+                        <div class="step-title">Passo 1: Cadastro no SUS</div>
+                        <div class="step-description">
+                            Para realizar exames, é necessário estar cadastrado no Sistema Único de Saúde (SUS).
+                            Certifique-se de ter um número do SUS e seus dados pessoais atualizados.
+                        </div>
+                    </div>
+
+                    <div id="step2" class="step">
+                        <div class="step-title">Passo 2: Agendamento do Exame</div>
+                        <div class="step-description">
+                            Agende o seu exame clicando na opção Agendar exame na página inicial
+                        </div>
+                    </div>
+
+                    <div id="step3" class="step">
+                        <div class="step-title">Passo 3: Realização do Exame</div>
+                        <div class="step-description">
+                            Compareça ao local do exame no horário agendado. Leve todos os documentos necessários e siga as orientações do profissional de saúde.
+                        </div>
+                    </div>
+
+                    <div id="step4" class="step">
+                        <div class="step-title">Passo 4: Retorno de Resultado</div>
+                        <div class="step-description">
+                            Após a realização do exame, aguarde o retorno dos resultados online dentro da opção Meus Exames. Dependendo do exame, isso pode levar alguns dias.
+            
+                        </div>
+                    </div>
+
+                    <button id="nextBtn" class="button" onclick="nextStep()">Próximo</button>
+                </div>
+
+            </div>
+        </main>
+    </body>
+    
+</html>
