@@ -1,29 +1,24 @@
-message: Please cite this software using these metadata.
-title:
+cff-version: 1.0.1
+message: Sistema para marcação de consultas e exames
+title: FAcilitaSUS
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Falcão
+    given-names: Mateus
+  - family-names: Rabelo
+    given-names: Mellyssa  
+  - family-names: Poccheshy 
+    given-names: Italo 
+  - family-names: Gomes 
+    given-names: Luana 
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Nigri
+    given-names: Humberto
 keywords:
-  - 
-  - 
-repository-code: 
+  - sus
+  - gov
+  - marcação
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-e1-proj-facilitasus
+license: CC-BY-4.0
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2024-12-08
